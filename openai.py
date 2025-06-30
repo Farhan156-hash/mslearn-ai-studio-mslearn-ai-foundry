@@ -7,7 +7,7 @@ load_dotenv()
 
 endpoint = os.getenv("PROJECT_ENDPOINT")
 model_name = os.getenv("MODEL_DEPLOYMENT")
-token = os.getenv("AZURE_KEY_CREDENTIAL")  # Rename if appropriate for clarity
+token = os.getenv("AZURE_KEY_CREDENTIAL")
 
 
 client = OpenAI(
